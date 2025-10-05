@@ -3,16 +3,12 @@
 Edge-Impulse-basiertes Objekterkennungs-Projekt für das **Seeed XIAO ESP32S3 CAM**.  
 Ziel: Baum/Hindernis erkennen und per LEDs/Lüftern eine einfache Ausweichlogik ansteuern.
 
----
-
 ## Inhalt des Repos
 
 - **InTheWoods.ino** – Arduino-Sketch (Inference + Aktorlogik)
 - **ei-inthewoods-arduino-1.0.5.zip** – Edge-Impulse-Modell als Arduino-Bibliothek (ZIP)
 - **docs/Technische_Dokumentation.pdf** – vollständige technische Dokumentation (Training, Deployment, Elektronik, Troubleshooting)
 - **README.md** – diese Datei
-
----
 
 ## Hardware
 
@@ -29,7 +25,6 @@ Ziel: Baum/Hindernis erkennen und per LEDs/Lüftern eine einfache Ausweichlogik 
 | LEFT_FAN     | D3  |
 | RIGHT_FAN    | D8  |
 
----
 
 ## Software-Voraussetzungen
 
@@ -37,8 +32,6 @@ Ziel: Baum/Hindernis erkennen und per LEDs/Lüftern eine einfache Ausweichlogik 
 - ESP32 Core: **„esp32 by Espressif Systems“** (Boards Manager)
 - Board: **Seeed XIAO ESP32S3**
 - Edge-Impulse-Bibliothek: **ZIP importieren** (siehe Quickstart)
-
----
 
 ## Quickstart
 
@@ -52,7 +45,6 @@ Ziel: Baum/Hindernis erkennen und per LEDs/Lüftern eine einfache Ausweichlogik 
 
 > Details zu Modell-Parametern, Speicher, Bildformaten und Fehlersuche: siehe **docs/Technische_Dokumentation.pdf**.
 
----
 
 ## Erkennungs- & Steuerlogik (kurz)
 
@@ -68,14 +60,8 @@ Ziel: Baum/Hindernis erkennen und per LEDs/Lüftern eine einfache Ausweichlogik 
 - **Objekt rechts** → **RIGHT_LED an**, **LEFT_FAN Rampe** (rechts eindrehen)  
 - **Zentral** → **Stop** (alle aus)
 
----
-
 ## Dokumentation
 
 Die **Technische Dokumentation** mit allen wichtigen Informationen (Modelltraining, Datensätze, Labeling, Arduino-Setup, Pin-Mapping, Deployment-Schritte, Tests, bekannte Issues) liegt unter:  
 **`docs/Technische_Dokumentation.pdf`**
 
----
-
-
-*(Lizenz kann hier ergänzt werden, z. B. MIT.)*
