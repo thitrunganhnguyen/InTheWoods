@@ -12,17 +12,17 @@ Ziel: Baum/Hindernis erkennen und per LEDs/Lüftern eine einfache Ausweichlogik 
 
 ## Hardware
 
-Mikrocontroller: Seeed Studio XIAO ESP32S3 Sense
-– integrierte Kamera (OV2640)
-– mit PSRAM für Edge-Impulse-Inferenz
+- **Mikrocontroller:** Seeed Studio **XIAO ESP32S3 Sense**  
+  - integrierte Kamera: **OV2640**  
+  - mit **PSRAM** für Edge-Impulse-Inferenz  
 
-Antrieb: 2 Gleichstrommotoren mit Propellern (Steuerung links/rechts über MOSFETs)
+- **Antrieb:** 2 Gleichstrommotoren mit Propellern (Steuerung links/rechts) 
 
-Signalausgabe: 2 LEDs (optische Richtungsanzeige: links = blau, rechts = rot)
+- **Signalausgabe:** 2 LEDs zur optischen Richtungsanzeige (Links = blau, Rechts = rot)  
 
-Energieversorgung: Lithium-Polymer-Batterie (tragbar, leicht)
+- **Energieversorgung:** Lithium-Polymer-Batterie (tragbar, leicht)  
 
-Trägerstruktur: Leichtbau-Aufbau, getragen durch mehrere Heliumballons
+- **Trägerstruktur:** Leichtbau-Aufbau, getragen durch mehrere Heliumballons  
 
 **Pinbelegung (im Sketch definiert):**
 
